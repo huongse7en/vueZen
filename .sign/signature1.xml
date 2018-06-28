@@ -1,0 +1,596 @@
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="DistributorSignature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI=".DS_Store">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LWdTlR4ho0i+SSi7mVoZJJiDql1WsYsigP6zXRtUyY8=</DigestValue>
+</Reference>
+<Reference URI="author-signature.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ny8hFGSqvctPHk+O1cesc83Ea/vsmTzimgguoFPqBy4=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2F.DS_Store">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1iQ5fM2JzwmIr9rH3hcoBsIpoaH4KcBTH86YWOrzZC8=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fcaph-jquery.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WOCRmi9XHqfVuDBVhXEAeAoMZbN1RkxHTpolBt/9xIk=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2F.DS_Store">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jbnBbv+FWKZernS2vgf+o60JVfTEZH2+YlYTC3EPQRc=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2F.bower.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1K6m4FoLQfWHLNLAaRhFkoIAgnFK1JFf1aJ6gDkBOY0=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2FAUTHORS.txt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/V5KZT/qHRKoLBJWcf1TAWOoM2SzB1a56idTUd7qufc=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2FLICENSE.txt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Kz7YukJEI6ULAj5yhTDZS8OFz8fDKK1lo9/unHwFMcU=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2FREADME.md">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>0kCHF4JQ+OSWiW0l5ilWY4FFau4wKiRvFPEvB2SC2zo=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fbower.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gOOJjukzNHufmoTD2V03ez88xkQj+aVN99PG1FpqrVo=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fdist%2Fcore.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>YCbKJH6u4siPpUlk130udu/JepdKVpXjdEyzje+z1pE=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fdist%2Fjquery.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fdist%2Fjquery.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fdist%2Fjquery.min.map">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1eiGMA0y1kD5P/bXnTaiTKk8vtvQ8IC2nXAoI1HJXyE=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fdist%2Fjquery.slim.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fdist%2Fjquery.slim.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fdist%2Fjquery.slim.min.map">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>R9iD2BZjLu3OzwrErQRNtxPK5tUuGdtBa2iefT78g2c=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fexternal%2Fsizzle%2FLICENSE.txt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nz7eWYcM7TRQG+mSJfcudSlpi2uRntnrINL61MOO9Yw=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fexternal%2Fsizzle%2Fdist%2Fsizzle.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hn6krJ1CiEWWJp5fmWPB4sjkvRfKuARv14o1gEoLJgQ=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fexternal%2Fsizzle%2Fdist%2Fsizzle.min.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>z1a5qwLnESQTT+lnpVKz3xNjci17C+5SSr2jHkA905c=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fexternal%2Fsizzle%2Fdist%2Fsizzle.min.map">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>B70sL0NWhOUZf2QfkcE+kx2Up89J+n0z8cKwv0pqIHg=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2F.eslintrc.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>05Y7V/QwxgotfDQr0pz9fozif8dEzryhttOOBvUEZnQ=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fajax.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>c62nyV6S4teU+nuCRBKkae7vCWcWZN+IwVkwMz781z0=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fajax%2Fjsonp.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>tVTBERQnmWMG6tnXVXE+GTdkXymdOoW5EdqbjGPBUuc=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fajax%2Fload.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>E/w7IKRRf7ScdUBFu4bqMuHTSoqbfR9n1oWWpe9pacM=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fajax%2FparseXML.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>OwiKK9msu9NcXZcM5SKxFnNuZjui8VTEJlhfO1nG/Kc=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fajax%2Fscript.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BOa35xpXMF3LQrJUAtRy10KgZTbZpuXeLeYBSGe+Bfg=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fajax%2Fvar%2Flocation.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>NDHedxtpSVFey+vX5TvRRJoD+G06/QcbDyh0s9SVHTM=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fajax%2Fvar%2Fnonce.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HzElH0ZgKBO0nJ6KzAB+OnYMJ6ik6Hg10mQb8K+wrmw=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fajax%2Fvar%2Frquery.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>YYVkpdDrXsZjhfFtWDCRTSiLpkr1vp4GyCkT3yM7cwU=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fajax%2Fxhr.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>YiG8fR24RK2NNcyOc7fyddu5wpu52Ta3FAKseoCBRiU=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fattributes.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mE2ygHkKZyKTqrdtEvX4O+gG8kAAVMny3B18lVC88iQ=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fattributes%2Fattr.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qHbjXd7D00NHzu/va0PXjR/VjLhO5BOwh0cOwz8B3WE=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fattributes%2Fclasses.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>D8ZCxscmMdQjFU8tPzZRMUrzV8k2UfLqejUm+fCyOlw=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fattributes%2Fprop.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>98PabMqvUTpMJLFBsMHZBQSFKewCgv3J8XUHqUTgrMs=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fattributes%2Fsupport.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rf7gspjppZWRRAFLjo37xtL47HF47KkA6y4ByDxCGro=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fattributes%2Fval.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>drGETcGeDrSv2kP7jsJLZyXMLxabFDOi1tIh4BS4s3M=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcallbacks.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4tvMCMKre12/X1YtVa6p+qsRKAuX3DF9cwVO0Yh/cmU=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcore.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>YCbKJH6u4siPpUlk130udu/JepdKVpXjdEyzje+z1pE=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcore%2FDOMEval.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XGtWrmVlD+094dI29/1MuyzdtMsstioiBe+QF6s45Qg=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcore%2Faccess.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>sYep2bgaUBYBHApUR2v4pxDpoK7K72kqM0aQRKP3Taw=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcore%2FcamelCase.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>u1m3RokLYLL1vyZxtd7uagI8RR3af+CKygaC2uAqidE=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcore%2Finit.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mZLiQZ2u5l4HFo+HqcllSWA9XCdJL4ysYv2ZbG56i/U=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcore%2FnodeName.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>NrGZeEG1QyYMRlxbeZyVUL1pNwiMGAFcnoTnCN2GpxY=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcore%2FparseHTML.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wodUQ/n+zMpSiZPrEfVSdjYmFPztugB/fZ3yyg7+aeo=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcore%2Fready-no-deferred.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6o7X1jPGVoo5we/xP3OBtKHgr05rp1CVHcDzrcP4Msg=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcore%2Fready.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>91Y5qZXJW0VcMFbzVHOXaw+yD6IXNB00m1wOV+vXtB0=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcore%2FreadyException.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LirlI4fo/drRWco6AIbAFGCkKr9DzSULnuMHXuFGASI=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcore%2FstripAndCollapse.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hhpC3nE2O3Z7+oAyD7VPZDntNrVASOiiewWtQxW/CnM=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcore%2Fsupport.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/LKKQwLjjtDPHLOhIIzldxHIU841KQFYR6llmeM/fpA=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcore%2FtoType.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>EZjmklhe/ZXR3Ud3Icu/W46ZhYZK1yf2H0g63caI2+c=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcore%2Fvar%2FrsingleTag.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>MU6dYx0e8A0xV21rO8jZ44WNgoZdNFQDkAgEQ5B8uWQ=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcss.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>KZZj9hbgiZ4tvyJf+KKi/1Th4aOVe/XCyvWSa9KWADg=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcss%2FaddGetHookIf.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SAsfHAPbzd+mgSmJvk0pan+zmiTDjq6wb2RRruZOk88=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcss%2FadjustCSS.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fj0mlaMMhPLvOTxIKnEWQWm8JV7h9dFnEHUG0myZRzg=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcss%2FcurCSS.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>NBQCH18cC3TlMqu7qSCWOM5zkZFMuD+VpTz45ZNwOlo=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcss%2FhiddenVisibleSelectors.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>OK2VDpvtXiPtSfnaRDblna+WvlUGLyucjkRRvzVyjMI=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcss%2FshowHide.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9r/4gVnvqiEZcEMLGjPOsK5k6Gsu1NaW16V3ExJNTww=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcss%2Fsupport.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uJR5XNnKiILMD7s/ahZ4vtwNq2OeuHV8yYKIUT8yQ+A=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcss%2Fvar%2FcssExpand.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pIru3vFVcHriTVkaJfRTIbpQad/DepyNFaBjiZ7FAz4=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcss%2Fvar%2FgetStyles.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>pXm6OhIemhdyOTv5x4iKM1AVszuqckMaSfwQe4ZG2ZA=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcss%2Fvar%2FisHiddenWithinTree.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/C6daWpHhua5PbvSlWQRniK9wnRPQQ5T3qKlBtLaiUk=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcss%2Fvar%2FrboxStyle.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zGVzgK01nEM+WhD1wDzh8661wnRk4PSC+/rf9xNrXhg=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcss%2Fvar%2Frnumnonpx.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LRluEam5e7bSDtWkIOjy2IwvPnHyDrB6UE5D0DAC9as=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fcss%2Fvar%2Fswap.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>TSqE/YDEj/3RqDqsgldEGeVLLg8Me+JjJSviHxW7AOk=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fdata.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WBS6+BnPLe2oxrxe5FldPiAa328dKTP1sGqC9OMYS0Y=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fdata%2FData.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fMPPbRR3QcDAc/GqMJVIJXH2tvoqg1plBUqp2r13KmM=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fdata%2Fvar%2FacceptData.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>35uwg+OJk5cSTc7P7t5DWnbHmfRRVw3fma2nnvsfo3Q=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fdata%2Fvar%2FdataPriv.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>GYc6ClSbTNsgg7nP5rfdebXdUJ9n/b46cHZgpEJBcIU=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fdata%2Fvar%2FdataUser.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>GYc6ClSbTNsgg7nP5rfdebXdUJ9n/b46cHZgpEJBcIU=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fdeferred.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Kd+auRXZfDCYZhD61224u4QZqBLaK7+ZK8prJapeP94=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fdeferred%2FexceptionHook.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>udKs034Z/UU2hvo39yiZV10EfLxcgQ4Ydkfwdt7CK0I=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fdeprecated.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aAEeWMa5fB6vbILFB8fM9nYFB6ppuo+e5lLJEPCPAz8=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fdimensions.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9ADRMEp9BnANENOUuYoMrLB8TSKUWO8q2bKXbsPJ+2k=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Feffects.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>yLUjrXFvh9KfR5QNQQjS3b68Bz6H9y7r2XwySiiWMXw=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Feffects%2FTween.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HZEbW0lYDf7YGyCSUM8vAs2YF56jCB/E6GRL43JaLdY=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Feffects%2FanimatedSelector.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UNp+ly+E+UZTulYgpD9AefrP4tJnzxuBbGe7v4AX6Wg=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fevent.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>J00TXCfjvAWpEOqn7LSMUl/ggJoZlebBkEEBjNHxUlY=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fevent%2Fajax.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ArU6C4c9SE15bNJMxrDBJwSwFyDdCGggaMVOXLBqCsM=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fevent%2Falias.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Gv5HahNRZIX7/QvLceQUe7EYzsAwJsyv+BajYusVXnE=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fevent%2Ffocusin.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Y3VPyZhTYSMZu9AaKo8Rq5Akx4Ik9NLULVC1Ne6EaqI=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fevent%2Fsupport.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cCO4OefxCNKsStLC5pglbD7P69YVFKDHHz4NEIBOhjU=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fevent%2Ftrigger.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IKgonWWEoWhVUbBpAruZcFZti9xgO3mE9UZTWK64c3M=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fexports%2Famd.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QlfltqSbRAmFDQxEzYJo4hRtmiZIEPIUwah/R0Y666c=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fexports%2Fglobal.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rHosNaT5dmyhSmObrJZx/ZNuz0nJ6aw9SwqVDxSR2qA=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fjquery.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1J//37dUFd4Bl8WCE2NJx8Yhn4/76ufIZ9BgRlfBiec=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fmanipulation.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/X79OttXwDLVg61Q5TyAVUoBscyVsoZj+snwgBUZx9g=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fmanipulation%2F_evalUrl.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Yy0+Pr+WUgmtVE+y1E35p29GUSprCgmULi+9p8Iyk8c=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fmanipulation%2FbuildFragment.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>W0hzmsgRxIF4efY4e7mblJadVeCI/auuHunkFW8DWjY=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fmanipulation%2FgetAll.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>raG5gE7KL3NBMnvgzNRw7+9VGSJlmRcPL2/wiiSWMtc=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fmanipulation%2FsetGlobalEval.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3L0phZ69PK1s3g+xxSf1D5X7nx+IiCnFEW3zT3ezDIw=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fmanipulation%2Fsupport.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mwFmv1jIK7oxXl0EAIfURUqh8q2V3hGhRfSGIWpN3Dc=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fmanipulation%2Fvar%2FrcheckableType.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>849PQpl513CvAi45KAyBwZvQYuApovHVrzG3SyKDRWk=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fmanipulation%2Fvar%2FrscriptType.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>xzoVGObmf4ukpDZEvP9yMPEvBa7+PbQ5MskKlinMsVE=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fmanipulation%2Fvar%2FrtagName.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>GX9kxabOeBG8bCsK2QNRc2a6z7yxvssYbqzq09VfZRQ=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fmanipulation%2FwrapMap.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AHGuue6dHLKu390mSw+QONln7rk/ltXLfg33P9JkxwA=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Foffset.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>7/5Q6xqAWgDcDhdaJzbqtxqZl0DYDRAIS5qn6rouZOM=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fqueue.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lQp6mzg7TypmtdCCngVWqXUBJ6ka4lh4/t8hTpF6fmg=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fqueue%2Fdelay.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>G3+gyYUPLcPYyW4qLKx6dKFOh4vo4U/5ch0RP0IAz10=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fselector-native.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gGuuEQzYbSpPrnQ8XFU2iYJwJff5DrFi2nXhyL3+BEs=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fselector-sizzle.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hZnNx+RdH/3RJgq+Bm/rLPLfKK+KC1HWdHXI4lZW5Gc=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fselector.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>NHLf2FMFkMmwr4IjT49T5ZrTdvSGHzYzZZBlcXmYqto=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fserialize.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4EiqlZB6zxnhxeirN4doj/kQ5/H/mjV3lX9xhhmxL4w=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Ftraversing.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uEpSpbKZaDK9XHOo7GtgNTYhocp7c5ZO8FHe1niVLsA=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Ftraversing%2FfindFilter.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6JpaMMZHQjK5B1OveqKZgLVWPvbhxQh2D/2pVnmmsRo=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Ftraversing%2Fvar%2Fdir.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Rjovcv9nhs+cmbOtOeoMt3c6+e47ehttatQUdJH2jgU=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Ftraversing%2Fvar%2FrneedsContext.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kMoDVjTLFo7G5Tk+NnDLP+9nrwiptZqHhe+cTZlivx8=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Ftraversing%2Fvar%2Fsiblings.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CPV8/Yh3Z5jQZ9Bjm73+hCLAVfihd/RaxGpkxfx502k=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2FObjectFunctionString.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8ymI7EWwkjEMYhd3a6kSAO5G6KzCub9YqCT5pkxF1Ys=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2Farr.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>KqEQ5OYuLmuBJfEmhHxBnmpGpv1pR72PM0lNLMZ/CW0=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2Fclass2type.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>MBPUIrJOxf7O2ci6pO1SDfVrDRjea/k2462G4VW2GTE=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2Fconcat.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>h+LQycndEDGbgbbXw5+XPh/unyHIw/LkaFA2c3D72Vo=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2Fdocument.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+gND7PEyGjy4zMBPzDjNx5L80bv+rMbglBOyjehkLEc=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2FdocumentElement.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UGnuEkSzjDDd72APy/FSv8HCuN4a6f/C3wXPIG0J6UQ=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2FfnToString.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>w2Smaz/FOStIVIVyE0Tmd5XPR1RS6P1FrdIYSK+yquo=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2FgetProto.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>TkAAWmLMCc10fZJz/1iv0Q6oAYT+lzoGIjfex9NX6rU=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2FhasOwn.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>sQe5oZPwd2LkibqEj0FCDN4m6E+OCg8K0dCZyrQZsgk=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2FindexOf.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QzhziawYimalbpg88AATiw4B+xiRGNLjRgKhv7FYKtE=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2FisFunction.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>UD/6nMVsm1UBzPPZ/XXQqmVBBgJVwXXfVgQv0E05RCg=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2FisWindow.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>87bJYkMxAREhW0dXpBB4pgbRcjs3/b70wDmOCjQCBbo=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2Fpnum.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Y403VoUQRLqYLZ1H953nd9UmAAOYNqril0kh0rVdR5U=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2Fpush.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ck7pyeuPlYAyci/q04Mo2sVNY1yGEIDGHu3LpGm/tEs=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2FrcssNum.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>nV8R+j8wlF0LiI89UHWox6X7xk6cUiHsB1nu3rkJE0Y=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2Frnothtmlwhite.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3H4lGanl/njZn/e17m1k0Tf6Zp6XESWJ1mRWm+zyWg4=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2Fslice.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>RbB/TiVS4EzuMeF4djnrI+R+rh5L9OeQBL3M7+TJT9E=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2Fsupport.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XMPzWuHe844wqbTSY/bOQ3IZ9b56nPMk8ibURLfrL2Y=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fvar%2FtoString.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Hh87skomwwu+CRIhgHuB57r89HwLkosBnbCADzaaLe8=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fjquery%2Fsrc%2Fwrap.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>+VE7+oOJoDc8KAoIrsjCOvi4qOLRjeCs7WhDbWCq860=</DigestValue>
+</Reference>
+<Reference URI="bower_components%2Fvue.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JfdW/gfvBTfO7w5LEpOut6wGFAjgQ8QMEVw509/Mr8g=</DigestValue>
+</Reference>
+<Reference URI="config.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>B7aFM9xIvRiIEbWGry/VQb3YC56+j9Do81nQ3xAI5CI=</DigestValue>
+</Reference>
+<Reference URI="css%2Fstyle.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>0/mhZV4kwFnSzCSp45AhFjWaQnaie61uW8VeXioOLQg=</DigestValue>
+</Reference>
+<Reference URI="icon.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vPjxjOppORd6hn9Bw4sh06gqtDoJzoFbV/8e9FyIdvk=</DigestValue>
+</Reference>
+<Reference URI="image%2Fchannel_43.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>agvBq7I4vKQqpH+1BrshjQ7LXwL/Ci3SSv4ymhYhCdk=</DigestValue>
+</Reference>
+<Reference URI="image%2Fwelcome.jpg">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>frE/ZVrGlWTIuictMlUP/u4kYDnQfzBP2llVoeRTl+Q=</DigestValue>
+</Reference>
+<Reference URI="index.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ta2cY00ZQvs60wHVsLnKdh9v/AFIqSUO3V43mMWCX3o=</DigestValue>
+</Reference>
+<Reference URI="js%2Fmain.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>0oc6DiyrAj1HQFcu+27/BHCQKn3zBn9dKls96iQZ564=</DigestValue>
+</Reference>
+<Reference URI="#prop">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>u/jU3U4Zm5ihTMSjKGlGYbWzDfRkGphPPHx3gJIYEJ4=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+TGJ3vTG6/AYg/V10R8aArjBQnrPCO2BgU2fhXs2DyIlNzrHAZr3reY+/7dKCK3l3IRp4K6dpvM8B
+aR5N+WjuFqVNDRyIqJ7h1qkzzjCU16xrqEjWAwnOsXHfUXCy+hS9fLiyr/DTQkPM0BRz+YoNB6iJ
+xNt8Tfr9fzqYf8tIjRI=
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIICmzCCAgQCCQDXI7WLdVZwiTANBgkqhkiG9w0BAQUFADCBjzELMAkGA1UEBhMCS1IxDjAMBgNV
+BAgMBVN1d29uMQ4wDAYDVQQHDAVTdXdvbjEWMBQGA1UECgwNVGl6ZW4gVGVzdCBDQTEiMCAGA1UE
+CwwZVGl6ZW4gRGlzdHJpYnV0b3IgVGVzdCBDQTEkMCIGA1UEAwwbVGl6ZW4gUHVibGljIERpc3Ry
+aWJ1dG9yIENBMB4XDTEyMTAyOTEzMDMwNFoXDTIyMTAyNzEzMDMwNFowgZMxCzAJBgNVBAYTAktS
+MQ4wDAYDVQQIDAVTdXdvbjEOMAwGA1UEBwwFU3V3b24xFjAUBgNVBAoMDVRpemVuIFRlc3QgQ0Ex
+IjAgBgNVBAsMGVRpemVuIERpc3RyaWJ1dG9yIFRlc3QgQ0ExKDAmBgNVBAMMH1RpemVuIFB1Ymxp
+YyBEaXN0cmlidXRvciBTaWduZXIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALtMvlc5hENK
+90ZdA+y66+Sy0enD1gpZDBh5T9RP0oRsptJv5jjNTseQbQi0SZOdOXb6J7iQdlBCtR343RpIEz8H
+mrBy7mSY7mgwoU4EPpp4CTSUeAuKcmvrNOngTp5Hv7Ngf02TTHOLK3hZLpGayaDviyNZB5PdqQdB
+hokKjzAzAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAvGp1gxxAIlFfhJH1efjb9BJK/rtRkbYn9+Ez
+GEbEULg1svsgnyWisFimI3uFvgI/swzr1eKVY3Sc8MQ3+Fdy3EkbDZ2+WAubhcEkorTWjzWz2fL1
+vKaYjeIsuEX6TVRUugHWudPzcEuQRLQf8ibZWjbQdBmpeQYBMg5x+xKLCJc=
+</X509Certificate>
+<X509Certificate>
+MIICtDCCAh2gAwIBAgIJAMDbehElPNKvMA0GCSqGSIb3DQEBBQUAMIGVMQswCQYDVQQGEwJLUjEO
+MAwGA1UECAwFU3V3b24xDjAMBgNVBAcMBVN1d29uMRYwFAYDVQQKDA1UaXplbiBUZXN0IENBMSMw
+IQYDVQQLDBpUVGl6ZW4gRGlzdHJpYnV0b3IgVGVzdCBDQTEpMCcGA1UEAwwgVGl6ZW4gUHVibGlj
+IERpc3RyaWJ1dG9yIFJvb3QgQ0EwHhcNMTIxMDI5MTMwMjUwWhcNMjIxMDI3MTMwMjUwWjCBjzEL
+MAkGA1UEBhMCS1IxDjAMBgNVBAgMBVN1d29uMQ4wDAYDVQQHDAVTdXdvbjEWMBQGA1UECgwNVGl6
+ZW4gVGVzdCBDQTEiMCAGA1UECwwZVGl6ZW4gRGlzdHJpYnV0b3IgVGVzdCBDQTEkMCIGA1UEAwwb
+VGl6ZW4gUHVibGljIERpc3RyaWJ1dG9yIENBMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDe
+OTS/3nXvkDEmsFCJIvRlQ3RKDcxdWJJp625pFqHdmoJBdV+x6jl1raGK2Y1sp2Gdvpjc/z92yzAp
+bE/UVLPh/tRNZPeGhzU4ejDDm7kzdr2f7Ia0U98K+OoY12ucwg7TYNItj9is7Cj4blGfuMDzd2ah
+2AgnCGlwNwV/pv+uVQIDAQABoxAwDjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4GBACqJ
+KO33YdoGudwanZIxMdXuxnnD9R6u72ltKk1S4zPfMJJv482CRGCI4FK6djhlsI4i0Lt1SVIJEed+
+yc3qckGm19dW+4xdlkekon7pViEBWuyHw8OWv3RXtTum1+PGHjBJ2eYY4ZKIpz73U/1NC16sTB/0
+VhfnkHwPltmrpYVe
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+<Object Id="prop"><SignatureProperties xmlns:dsp="http://www.w3.org/2009/xmldsig-properties"><SignatureProperty Id="profile" Target="#DistributorSignature"><dsp:Profile URI="http://www.w3.org/ns/widgets-digsig#profile"></dsp:Profile></SignatureProperty><SignatureProperty Id="role" Target="#DistributorSignature"><dsp:Role URI="http://www.w3.org/ns/widgets-digsig#role-distributor"></dsp:Role></SignatureProperty><SignatureProperty Id="identifier" Target="#DistributorSignature"><dsp:Identifier></dsp:Identifier></SignatureProperty></SignatureProperties></Object>
+</Signature>
