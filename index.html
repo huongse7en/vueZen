@@ -1,15 +1,10 @@
 <html>
 <head>
-	<script src="bower_components/vue.js"></script>
+	<script type="text/javascript" src="bower_components/vue.js"></script>
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="bower_components/caph-jquery.min.js"></script>
 </head>
 <style type="text/css">
-	#app {
-		/*background: white;*/
-		
-
-	}
 	button {
 		position: absolute;
 		z-index: 10
@@ -28,6 +23,11 @@
 		left: 0;
 /*		filter: blur(10px);
 		-webkit-filter: blur(10px);*/
+	}
+	.message {
+		color: white;
+		font-size: 40px;
+		position: relative;
 	}
 	.list-item {
 		position: relative;
@@ -49,12 +49,12 @@
 </style>
 <body>
 	<div id="app">
-		{{ message }}
+		<div class="message">{{ message }}</div>
 		<button class="add"  v-on:click="add" > ADD NEW </button>
-		<!-- <button v-on:click="get"> Get FOCUS </button> -->
 
 		<div class="list-item">
-			<div class="item" :id="index" v-bind:data-focusable-name="itemName(index)"  v-for="(item,index) in list" :data-id="index" v-bind:class="{ activate: index == 0 }"  focusable v-bind:data-focusable-next-focus-left="leftTarget(index)"  v-bind:data-focusable-next-focus-up="upTarget(index)">
+			<div class="item" :id="index"   v-for="(item,index) in list" :data-id="index" v-bind:class="{ activate: index == 0 }"  
+			focusable v-bind:data-focusable-name="itemName(index)" v-bind:data-focusable-next-focus-left="leftTarget(index)"  v-bind:data-focusable-next-focus-up="upTarget(index)">
 				<img src="http://otttv.viettel.com.vn/api1/contents/pictures/57bbce48718c8a23a4a8d7fb">{{index}}
 
 			</div>
@@ -82,7 +82,7 @@
 					controller.focus(nearestFocusableFinder.getInitial());
 				},
 				add: function() {
-					let obj = 'test';
+					var obj = 'test';
 					this.list.push(obj);
 				},
 				get: function() {
@@ -90,15 +90,17 @@
 				},
 				
 				itemName: function(index) {
-					return `item-${index}`;
+					return 'item-' + index;
+					// return `item-${index}`;
 				},
 				leftTarget: function(index) {
-					let target = `item-${index - 1}`;
+					// let target = `item-${index - 1}`;
+					var target = 'item-' + (index - 1);
 					return target;
 				},
 				upTarget: function(index) {
 					if(index < 8) return 'addname';
-				},
+				}
 
 			},
 			mounted: function () {
@@ -119,7 +121,7 @@
 				   		},
 				   	toggle : true,
 				   	onSelected :function(event,originalEvent,selected){
-					   	let obj = 'test';
+					   	var obj = 'test';
 						app.list.push(obj);
 				   		//In toggle button, 'selected' is passed additionally. Through selected , you can check toggle button is selected or not.
 				   		//In normal button, 'selected' isn't passed to select event handler
